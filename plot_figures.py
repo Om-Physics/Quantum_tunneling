@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""plot_figures.py -- builds all figures of the paper from results.pkl (run run_sims.py first)."""
 import pickle, json, numpy as np
 import matplotlib
 matplotlib.use("Agg")
