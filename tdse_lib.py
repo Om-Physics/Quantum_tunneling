@@ -1,9 +1,3 @@
-"""
-tdse_lib.py -- core routines for 1D wave-packet dynamics (units: eV, nm, fs; electron mass).
-
-    hbar          = 0.6582119569 eV fs
-    hbar^2/(2 m)  = 0.0380998212 eV nm^2
-"""
 import numpy as np
 import scipy.sparse as sp
 import scipy.sparse.linalg as spla
