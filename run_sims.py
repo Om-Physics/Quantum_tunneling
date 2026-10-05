@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-run_sims.py -- all numerical experiments for the paper. Results are stored in results.pkl
-(consumed by plot_figures.py) and key numbers in results.json.
-Units: eV, nm, fs (electron mass).  Run time: ~10 min on one core.
-"""
 import numpy as np, pickle, json, time, sys, traceback
 from scipy.optimize import minimize_scalar, brentq
 from tdse_lib import *
